@@ -1,0 +1,43 @@
+.body{
+    background-color: rgb(19, 16, 16);
+}
+.card{
+    box-shadow: 0 4px 16px 0 rgba(red, green, blue, alpha)(0,0,0,0.5);
+    transition: all 0.3s;
+    width: 290px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    background:#fff;
+
+}
+.card:hover{
+    box-shadow: 0 4px 16px 0 rgba(red, green, blue, alpha)(0,0,0,0.2);
+}
+.container{
+    padding: 2px 16px;
+    background-color: rgb(207, 203, 206);
+}
+.title{
+    color: rgb(39, 2, 2);
+    font-size: 18px;
+}
+button{
+    display: -webkit-inline-box;
+    padding: 8px;
+    color: white;
+    background: color #000; 
+    text-align: center;
+    cursor:pointer ;
+    width: 100%;
+    font-size:18px ;
+background-color:black;
+}
+a{
+    text-decoration: none;
+    font-size: 22px;
+    color: black;
+
+}
+button:hover, a:hover{
+    opacity: 0.7;
+}
