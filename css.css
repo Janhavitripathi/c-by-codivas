@@ -1,5 +1,6 @@
 .body{
     background-color: rgb(19, 16, 16);
+    
 }
 .card{
     box-shadow: 0 4px 16px 0 rgba(red, green, blue, alpha)(0,0,0,0.5);
@@ -41,3 +42,15 @@ a{
 button:hover, a:hover{
     opacity: 0.7;
 }
+.circle{
+    border: color rgb(97, 40, 40) #10486b;
+    border: radius 50% 50% 50% 50%;
+    border-style: solid;
+    border-width: 8px;
+    height:300px;
+    width: 275px;
+    overflow: hidden;
+
+}
+
+
